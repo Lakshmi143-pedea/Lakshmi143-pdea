@@ -12,11 +12,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Utility {
 	
-//	static String username="samarjitkundu99";
-//	static String accesskey="LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hYmoWP" ;
-//	static String URL = "https://"+username+":"+accesskey+"@hub.lambdatest.com/wd/hub";
-
-
 
 	public static WebDriver Initialize(String browser) {
 		RemoteWebDriver driver = null;
@@ -27,7 +22,7 @@ public class Utility {
         	 browserOptions.setBrowserVersion("128");
         	 HashMap<String, Object> ltOptions = new HashMap<String, Object>();
         	 ltOptions.put("username", "samarjitkundu99");
-        	 ltOptions.put("accessKey", "LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hYmoWP");
+        	 ltOptions.put("accessKey", "LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hY");
         	 ltOptions.put("project", "Lambdatest_SeleniumJava101");
         	 ltOptions.put("build", "Lambdatest_SeleniumJava101");
         	 ltOptions.put("name", "LambdaTestSelenium_101_Java");
@@ -51,7 +46,7 @@ public class Utility {
              options.setBrowserVersion("130.0");
         	 HashMap<String, Object> ltOptions1 = new HashMap<String, Object>();
         	 ltOptions1.put("username", "samarjitkundu99");
-        	 ltOptions1.put("accessKey", "LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hYmoWP");
+        	 ltOptions1.put("accessKey", "LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hY");
         	 ltOptions1.put("project", "Lambdatest_SeleniumJava101");
         	 ltOptions1.put("build", "Lambdatest_SeleniumJava101");
         	 ltOptions1.put("name", "LambdaTestSelenium_101_Java");
@@ -76,7 +71,7 @@ public class Utility {
         	 edgeOptions.setBrowserVersion("127.0");
         	 HashMap<String, Object> ltOptions2 = new HashMap<String, Object>();
         	 ltOptions2.put("username", "samarjitkundu99");
-        	 ltOptions2.put("accessKey", "LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hYmoWP");
+        	 ltOptions2.put("accessKey", "LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hY");
         	 ltOptions2.put("project", "Lambdatest_SeleniumJava101");
         	 ltOptions2.put("build", "Lambdatest_SeleniumJava101");
         	 ltOptions2.put("name", "LambdaTestSelenium_101_Java");
@@ -100,7 +95,7 @@ public class Utility {
         	 ieoptions.setBrowserVersion("11");
         	 HashMap<String, Object> ltOptions3 = new HashMap<String, Object>();
         	 ltOptions3.put("username", "samarjitkundu99");
-        	 ltOptions3.put("accessKey", "LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hYmoWP");
+        	 ltOptions3.put("accessKey", "LT_Fl6EVG8YdtqArLvzkp8RKtSzVHf72PPjQyzIs03x8hY");
         	 ltOptions3.put("project", "Lambdatest_SeleniumJava101");
         	 ltOptions3.put("build", "Lambdatest_SeleniumJava101");
         	 ltOptions3.put("name", "LambdaTestSelenium_101_Java");
